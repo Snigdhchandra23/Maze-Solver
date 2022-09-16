@@ -2,6 +2,8 @@
 It is a maze solving robot that uses depth first search algorithm to map the maze and calculate the shortest path from start to destination using flood fill algorithm.
 It uses ultrasonic sensors for calculating distance form walls and then processing this data to navigate through the maze.
 
+https://user-images.githubusercontent.com/54740532/190594092-426bfe80-d6ff-4f46-a19d-55bd7fb02160.mp4
+
 
 #Developing the algorithm from scratch:
 
@@ -45,5 +47,4 @@ You can move the car back to the starting square and perform the quick run once 
 Return to step 1 and repeat the process until the robot reaches the desired position.
 Since the car will only be travelling to the cells that have already been detected during the quick run, neither the maze array nor the flood array need to be updated.
 
-https://user-images.githubusercontent.com/54740532/190594092-426bfe80-d6ff-4f46-a19d-55bd7fb02160.mp4
-
+Thank You!
